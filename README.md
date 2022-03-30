@@ -7,6 +7,6 @@ To enable the public minting features, proceed with the followings:
 2. Connect with the owner address (the original address that upload the contract)
 3. Look for isPublicMintEnabled_ (bool) and set it to true.
 
-Sample URL as per embedded links
+Sample URL as per embedded links - Please change to Rinkeby network
 
 # RoboPunksNFT
