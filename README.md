@@ -1,16 +1,12 @@
-# Basic Sample Hardhat Project
+# NFT Minting Website Sample
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+This project demonstrates a basic NFT with minting use case. It comes with a contract where the owner need to enable the public mint function before other user can start minting the NFT.
 
-Try running some of the following tasks:
+To enable the public minting features, proceed with the followings:
+1. Go to the contract in etherscan
+2. Connect with the owner address (the original address that upload the contract)
+3. Look for isPublicMintEnabled_ (bool) and set it to true.
 
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
-```
+Sample URL as per embedded links
+
 # RoboPunksNFT
